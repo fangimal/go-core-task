@@ -27,7 +27,7 @@ func main() {
 	originalSlice = append(originalSlice, value)
 	equal := reflect.DeepEqual(originalSlice, copyS) // → bool
 
-	fmt.Printf("\n Шаг 4: Копия %v, равны: %v", copyS, equal)
+	fmt.Printf("\n Шаг 4: этот %v и %v равны: %v", copyS, originalSlice, equal)
 
 	//5
 	index := 2
